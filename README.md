@@ -1,2 +1,2 @@
 # javascript-fundamental
-try to be a pro
+fundamental javascript for beginner
