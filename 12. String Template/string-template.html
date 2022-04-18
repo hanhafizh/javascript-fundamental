@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Template Backtick</title>
+</head>
+<body>
+    <script>
+
+        const name = "Farhan Hafizh";
+
+        const firstname = "Farhan";
+        const lastname = "Hafizh";
+
+        const template = `Nama : ${firstname} ${lastname} backtick `; // ` backtick usefull
+        const oldtemplate = "Nama : " + firstname + " " + lastname + " old";
+
+        console.info(template);
+        console.info(oldtemplate);
+
+        const nilai = 90;
+        const template2 = `Name : ${name}, Lulus : ${nilai > 70}`;
+
+        console.log(template2);
+
+        const multiline = `Makan & Minuman
+Ikan Teri
+Ikan Udang
+Ayam Bakar
+Daging Wagyu
+Es Jeruk
+        
+`
+
+        document.writeln("<pre>");
+        document.writeln(multiline);
+        document.writeln("</pre>");
+
+    </script>
+</body>
+</html>
