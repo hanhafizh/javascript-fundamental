@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Switch</title>
+  </head>
+  <body>
+    <script>
+      // const nilai = "A";
+      const nilai = prompt("Masukkan nilai anda dari A - D");
+
+      switch (nilai) {
+        case "A":
+          document.writeln("<p>Anda lulus ujian dengan sempurna</p>");
+          break;
+        case "B":
+          document.writeln("<p>Nilai anda hampir sempurna</p>");
+          break;
+        case "C":
+          document.writeln("<p>Nilai anda kurang baik</p>");
+          break;
+        case "D":
+          document.writeln("<p>Anda tidak lulus</p>");
+          break;
+        default:
+          document.writeln("<p>Anda salah menginput nilai</p>");
+          break;
+      }
+    </script>
+  </body>
+</html>
